@@ -1,0 +1,1 @@
+import{P as e,_ as t,h as n,y as r}from"./index-BM_RBz7Q.js";var i=e(t());function a(e){let t=n();return i.useCallback(async(...n)=>{try{let t=await e(...n);if(r(t))throw t;return t}catch(e){if(r(e))return e.options._fromLocation=t.state.location,t.navigate(t.resolveRedirect(e).options);throw e}},[t,e])}export{a as t};
