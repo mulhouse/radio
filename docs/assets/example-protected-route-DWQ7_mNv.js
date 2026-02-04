@@ -1,2 +1,0 @@
-import{t as e}from"./useServerFn-DsTzOVMO.js";import{C as t,E as n,M as r,u as i,w as a}from"./main-nBXvAf8O.js";function o(){let{currentUser:n}=t({from:`__root__`}),r=e(i),o=a();return{currentUser:n,signOut:async()=>{await r(),await o.invalidate()}}}var s=r(n());function c({}){let{currentUser:e}=o();return(0,s.jsxs)(`div`,{children:[`Protected `,e?.email]})}export{c as component};
-//# sourceMappingURL=example-protected-route-DWQ7_mNv.js.map
