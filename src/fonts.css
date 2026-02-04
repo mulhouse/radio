@@ -1,0 +1,9 @@
+/* Custom fonts for Web Radio PWA */
+
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.font-display {
+  font-family: 'Bebas Neue', 'Impact', sans-serif;
+}
