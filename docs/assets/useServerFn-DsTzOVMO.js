@@ -1,0 +1,2 @@
+import{M as e,O as t,T as n,w as r}from"./main-nBXvAf8O.js";var i=e(t());function a(e){let t=r();return i.useCallback(async(...r)=>{try{let t=await e(...r);if(n(t))throw t;return t}catch(e){if(n(e))return e.options._fromLocation=t.state.location,t.navigate(t.resolveRedirect(e).options);throw e}},[t,e])}export{a as t};
+//# sourceMappingURL=useServerFn-DsTzOVMO.js.map
