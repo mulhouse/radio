@@ -1,0 +1,10 @@
+{
+  "name":"radio-pwa",
+  "version":"0.1.0",
+  "description":"Client-side PWA for quick radio station streaming",
+  "scripts":{
+    "start":"npx serve -s .",
+    "deploy":"echo 'Use GitHub Actions or gh-pages to deploy'"
+  },
+  "devDependencies":{}
+}
