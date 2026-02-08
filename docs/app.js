@@ -27,7 +27,7 @@ function renderStations(){
     btn.className = 'station-btn';
     btn.setAttribute('data-index', i);
     btn.innerHTML = `
-      <img src="${s.logo || '/assets/logos/placeholder.svg'}" alt="${s.name} logo" loading="lazy">
+      <img src="${s.logo || '/assets/logos/placeholder.svg'}" alt="${s.name} logo" fetchpriority="high">
       <div class="label">${s.name}</div>
     `;
     btn.addEventListener('click', ()=>selectStation(i));
@@ -97,3 +97,4 @@ audio.addEventListener('error', (ev)=>{ showToast('Stream failed to load. Check 
 // Beforeunload: pause audio to avoid weird background playback when closing
 
 window.addEventListener('beforeunload', ()=>{ try{ audio.pause(); }catch(e){} });
+
