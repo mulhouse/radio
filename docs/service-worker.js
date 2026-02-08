@@ -1,7 +1,7 @@
 const CACHE_NAME = 'radio-pwa-v1';
 const ASSETS = [
-  '/', '/index.html', '/styles.css', '/app.js', '/stations.json', '/manifest.webmanifest',
-  '/assets/logos/placeholder.svg'
+  './', './index.html', './styles.css', './app.js', './stations.json', './manifest.json',
+  './assets/logos/placeholder.svg'
 ];
 
 self.addEventListener('install', (evt)=>{
@@ -30,4 +30,5 @@ self.addEventListener('fetch', (evt)=>{
     // fallback for navigation
     if(req.mode === 'navigate') return caches.match('/index.html');
   })));
+
 });
