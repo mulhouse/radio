@@ -5,7 +5,9 @@ const ASSETS = [
 ];
 
 self.addEventListener('install', (evt)=>{
-  evt.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(ASSETS)));
+  evt.waitUntil(caches.open(CACHE_NAME)
+                  .then(c=>c.addAll(ASSETS)));
+                  .catch(err => console.error('Cache install failed:', err)) //
   self.skipWaiting();
 });
 
@@ -22,8 +24,9 @@ self.addEventListener('fetch', (evt)=>{
   }
   // for app shell assets - cache first
   evt.respondWith(caches.match(req).then(cached=>cached || fetch(req).then(resp=>{
+    const responseClone = resp.clone(); // 
     if(req.method === 'GET' && req.url.startsWith(self.location.origin)){
-      caches.open(CACHE_NAME).then(cache=>cache.put(req, resp.clone()));
+      caches.open(CACHE_NAME).then(cache=>cache.put(req, responseClone)); //
     }
     return resp;
   }).catch(()=>{
@@ -32,3 +35,4 @@ self.addEventListener('fetch', (evt)=>{
   })));
 
 });
+
