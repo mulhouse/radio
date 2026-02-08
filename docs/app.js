@@ -77,7 +77,7 @@ function showToast(msg){
 
 // Service worker registration for PWA offline support
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('/service-worker.js').then(()=>console.log('SW registered')).catch(e=>console.warn('SW register failed',e));
+  navigator.serviceWorker.register('./service-worker.js').then(()=>console.log('SW registered')).catch(e=>console.warn('SW register failed',e));
 }
 
 // Media Session (for lock screen / background) — best-effort
@@ -95,4 +95,5 @@ audio.addEventListener('pause', ()=>playPauseBtn.textContent='►');
 audio.addEventListener('error', (ev)=>{ showToast('Stream failed to load. Check station or network.'); console.error(ev); });
 
 // Beforeunload: pause audio to avoid weird background playback when closing
+
 window.addEventListener('beforeunload', ()=>{ try{ audio.pause(); }catch(e){} });
