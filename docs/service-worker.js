@@ -6,8 +6,8 @@ const ASSETS = [
 
 self.addEventListener('install', (evt)=>{
   evt.waitUntil(caches.open(CACHE_NAME)
-                  .then(c=>c.addAll(ASSETS)))
-                  .catch(err => console.error('Cache install failed:', err)); //
+                  .then(c=>c.addAll(ASSETS))
+                  .catch(err => console.error('Cache install failed:', err))); //
   self.skipWaiting();
 });
 
@@ -35,5 +35,6 @@ self.addEventListener('fetch', (evt)=>{
   })));
 
 });
+
 
 
