@@ -1,6 +1,6 @@
 [
-  {"name":"France Inter","query":"France Inter","logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/France_Inter_logo_2021.svg/1200px-France_Inter_logo_2021.svg.png","stream":"https://stream.radiofrance.fr/franceinter/franceinter_hifi.m3u8"},
-  {"name":"RTL","query":"RTL","logo":"https://duckduckgo.com/i/035a5e15d396c67a.png","stream":"https://live.m6radio.quortex.io/webM89Hc99XApzgfhXNX8ASN5/grouprtl/national/short/audio-64000/index.m3u8"},
+  {"name":"France Inter","query":"France Inter","logo":"./assets/logos/finter.webp","stream":"https://stream.radiofrance.fr/franceinter/franceinter_hifi.m3u8"},
+  {"name":"RTL","query":"RTL","logo":"./assets/logos/rtl.webp","stream":"https://live.m6radio.quortex.io/webM89Hc99XApzgfhXNX8ASN5/grouprtl/national/short/audio-64000/index.m3u8"},
   {"name":"Ici Besançon","query":"Ici Besançon","logo":"https://www.francebleu.fr/client/immutable/assets/logo-ici-small.DwiLDMIK.svg","stream":"https://icecast.radiofrance.fr/fbbesancon-midfi.mp3"},
   {"name":"France Musique","query":"France Musique","logo":"https://upload.wikimedia.org/wikipedia/fr/thumb/2/22/France_Musique_-_2008.svg/1024px-France_Musique_-_2008.svg.png","stream":"https://icecast.radiofrance.fr/francemusique-midfi.mp3"},
   {"name":"France Culture","query":"France Culture","logo":"https://upload.wikimedia.org/wikipedia/fr/thumb/c/c9/France_Culture_-_2008.svg/1024px-France_Culture_-_2008.svg.png","stream":"https://icecast.radiofrance.fr/franceculture-midfi.mp3"},
@@ -9,4 +9,5 @@
   {"name":"GRRIF","query":"GRRIF","logo":"https://www.grrif.ch/wp-content/themes/grrif/img/player/logo-grrif.png","stream":"https://grrif.ice.infomaniak.ch/grrif-128.aac"},
   {"name":"Nostalgie","query":"Nostalgie","logo":"https://myradioendirect.fr/public/uploads/radio_img/nostalgie/play_250_250.webp","stream":"https://streaming.nrjaudio.fm/oug7girb92oc?origine=tingfm"}
 ]
+
 
