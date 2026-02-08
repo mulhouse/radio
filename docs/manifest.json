@@ -8,14 +8,14 @@
   "screenshots": [
     {
       "src": "./assets/screenshot-mobile.png",
-      "sizes": "384x728",
+      "sizes": "1170x2532",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Écran mobile Radio"
     },
     {
       "src": "./assets/screenshot-tablet.png",
-      "sizes": "728x1024", 
+      "sizes": "2048x1536", 
       "type": "image/png",
       "form_factor": "wide",
       "label": "Vue tablette Radio"
@@ -27,5 +27,6 @@
   ]
 
 }
+
 
 
