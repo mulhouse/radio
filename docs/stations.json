@@ -4,7 +4,7 @@
   {"name":"Ici Besançon","query":"Ici Besançon","logo":"./assets/logos/ici.webp","stream":"https://icecast.radiofrance.fr/fbbesancon-midfi.mp3"},
   {"name":"France Musique","query":"France Musique","logo":"./assets/logos/fmusique.webp","stream":"https://icecast.radiofrance.fr/francemusique-midfi.mp3"},
   {"name":"France Culture","query":"France Culture","logo":"./assets/logos/fculture.webp","stream":"https://icecast.radiofrance.fr/franceculture-midfi.mp3"},
-  {"name":"RTS","query":"RTS","logo":"./assets/logos/rts.webp","stream":"https://stream.srg-ssr.ch/m/la-1ere/mp3_128"},
+  {"name":"RTS","query":"RTS","logo":"./assets/logos/rts.webp","stream":"http://stream.srg-ssr.ch/m/la-1ere/mp3_128"},
   {"name":"FIP","query":"FIP","logo":"./assets/logos/fip.webp","stream":"https://icecast.radiofrance.fr/fip-midfi.mp3"},
   {"name":"GRRIF","query":"GRRIF","logo":"./assets/logos/grrif.webp","stream":"https://grrif.ice.infomaniak.ch/grrif-128.aac"},
   {"name":"Nostalgie","query":"Nostalgie","logo":"./assets/logos/nostalgie.webp","stream":"https://streaming.nrjaudio.fm/oug7girb92oc?origine=tingfm"}
