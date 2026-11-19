@@ -5,7 +5,7 @@
   {"name":"France Musique","query":"France Musique","logo":"./assets/logos/fmusique.webp","stream":"https://icecast.radiofrance.fr/francemusique-midfi.mp3"},
   {"name":"France Culture","query":"France Culture","logo":"./assets/logos/fculture.webp","stream":"https://icecast.radiofrance.fr/franceculture-midfi.mp3"},
   {"name":"RTS","query":"RTS","logo":"./assets/logos/rts.webp","stream":"https://stream.srg-ssr.ch/srgssr/la-1ere/mp3/128"},
-  {"name":"Couleur 3","query":"Couleur 3","logo":"./assets/logos/rts.webp","stream":"https://stream.srg-ssr.ch/srgssr/couleur3/mp3/128"},
+  {"name":"Couleur 3","query":"Couleur 3","logo":"./assets/logos/couleur3.webp","stream":"https://stream.srg-ssr.ch/srgssr/couleur3/mp3/128"},
   {"name":"FIP","query":"FIP","logo":"./assets/logos/fip.webp","stream":"https://icecast.radiofrance.fr/fip-midfi.mp3"},
   {"name":"GRRIF","query":"GRRIF","logo":"./assets/logos/grrif.webp","stream":"https://grrif.ice.infomaniak.ch/grrif-128.aac"},
   {"name":"Nostalgie","query":"Nostalgie","logo":"./assets/logos/nostalgie.webp","stream":"https://streaming.nrjaudio.fm/oug7girb92oc?origine=tingfm"}
